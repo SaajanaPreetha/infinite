@@ -1,0 +1,7 @@
+C:\infinite\week1assignment3\week1assignment3\obj\Debug\week1assignment3.csproj.AssemblyReference.cache
+C:\infinite\week1assignment3\week1assignment3\obj\Debug\week1assignment3.csproj.CoreCompileInputs.cache
+C:\infinite\week1assignment3\week1assignment3\bin\Debug\week1assignment3.exe.config
+C:\infinite\week1assignment3\week1assignment3\bin\Debug\week1assignment3.exe
+C:\infinite\week1assignment3\week1assignment3\bin\Debug\week1assignment3.pdb
+C:\infinite\week1assignment3\week1assignment3\obj\Debug\week1assignment3.exe
+C:\infinite\week1assignment3\week1assignment3\obj\Debug\week1assignment3.pdb
