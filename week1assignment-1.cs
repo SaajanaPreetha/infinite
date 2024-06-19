@@ -25,7 +25,7 @@ namespace assignment_1
                 Console.WriteLine("The two integers are not equal");
             }
 
-            Console.ReadLine();
+         Console.ReadLine();
         }
     }
 }
