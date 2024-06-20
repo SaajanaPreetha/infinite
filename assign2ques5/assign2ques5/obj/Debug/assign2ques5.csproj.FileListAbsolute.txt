@@ -1,0 +1,7 @@
+C:\infinite\assign2ques5\assign2ques5\bin\Debug\assign2ques5.exe.config
+C:\infinite\assign2ques5\assign2ques5\bin\Debug\assign2ques5.exe
+C:\infinite\assign2ques5\assign2ques5\bin\Debug\assign2ques5.pdb
+C:\infinite\assign2ques5\assign2ques5\obj\Debug\assign2ques5.csproj.AssemblyReference.cache
+C:\infinite\assign2ques5\assign2ques5\obj\Debug\assign2ques5.csproj.CoreCompileInputs.cache
+C:\infinite\assign2ques5\assign2ques5\obj\Debug\assign2ques5.exe
+C:\infinite\assign2ques5\assign2ques5\obj\Debug\assign2ques5.pdb
