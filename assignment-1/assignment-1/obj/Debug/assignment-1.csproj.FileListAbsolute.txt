@@ -1,7 +1,0 @@
-C:\infinite\assignment-1\assignment-1\bin\Debug\assignment-1.exe.config
-C:\infinite\assignment-1\assignment-1\bin\Debug\assignment-1.exe
-C:\infinite\assignment-1\assignment-1\bin\Debug\assignment-1.pdb
-C:\infinite\assignment-1\assignment-1\obj\Debug\assignment-1.csproj.AssemblyReference.cache
-C:\infinite\assignment-1\assignment-1\obj\Debug\assignment-1.csproj.CoreCompileInputs.cache
-C:\infinite\assignment-1\assignment-1\obj\Debug\assignment-1.exe
-C:\infinite\assignment-1\assignment-1\obj\Debug\assignment-1.pdb

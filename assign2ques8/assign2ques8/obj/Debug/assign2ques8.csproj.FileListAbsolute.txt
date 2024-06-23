@@ -1,7 +1,0 @@
-C:\infinite\assign2ques8\assign2ques8\bin\Debug\assign2ques8.exe.config
-C:\infinite\assign2ques8\assign2ques8\bin\Debug\assign2ques8.exe
-C:\infinite\assign2ques8\assign2ques8\bin\Debug\assign2ques8.pdb
-C:\infinite\assign2ques8\assign2ques8\obj\Debug\assign2ques8.csproj.AssemblyReference.cache
-C:\infinite\assign2ques8\assign2ques8\obj\Debug\assign2ques8.csproj.CoreCompileInputs.cache
-C:\infinite\assign2ques8\assign2ques8\obj\Debug\assign2ques8.exe
-C:\infinite\assign2ques8\assign2ques8\obj\Debug\assign2ques8.pdb
