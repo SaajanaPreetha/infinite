@@ -20,7 +20,7 @@ namespace Assign3ques1
             this.accountNo = accountNo;
             this.customerName = customerName;
             this.accountType = accountType;
-            this.transactionType = '\0'; // Initialize to null character or default
+            this.transactionType = '\0'; 
             this.amount = 0.0;
             this.balance = 0.0;
         }
@@ -67,7 +67,7 @@ namespace Assign3ques1
             Console.WriteLine("Account Type: " + accountType);
             Console.WriteLine("Transaction Type: " + transactionType);
             Console.WriteLine("Amount: " + amount);
-            Console.WriteLine("Balance: " + balance.ToString("C")); // Display balance as currency
+            Console.WriteLine("Balance: " + balance.ToString("C")); 
         }
 
         public static void Main(string[] args)

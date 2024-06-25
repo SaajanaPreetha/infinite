@@ -12,11 +12,9 @@ namespace consoleapp8
     {
         static void Main(string[] args)
         {
-            // Prompt user for input string
             Console.Write("Enter the string: ");
             string input = Console.ReadLine();
 
-            // Prompt user for position
             Console.Write("Enter the position to remove the character from (0-based index): ");
             int position;
             while (!int.TryParse(Console.ReadLine(), out position) || position < 0 || position >= input.Length)
@@ -25,7 +23,6 @@ namespace consoleapp8
                 Console.Write("Enter the position to remove the character from (0-based index): ");
             }
 
-            // Output result
             string result = RemoveCharacterAtPosition(input, position);
             Console.WriteLine("Result: " + result);
             Console.ReadLine();

@@ -38,9 +38,6 @@ namespace ConsoleApp5
             Console.ReadLine();
 
         }
-        
-        
-
     }
 }
 
