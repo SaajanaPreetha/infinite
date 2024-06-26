@@ -1,0 +1,7 @@
+C:\infinite\Assess2ques3\Assess2ques3\bin\Debug\Assess2ques3.exe.config
+C:\infinite\Assess2ques3\Assess2ques3\bin\Debug\Assess2ques3.exe
+C:\infinite\Assess2ques3\Assess2ques3\bin\Debug\Assess2ques3.pdb
+C:\infinite\Assess2ques3\Assess2ques3\obj\Debug\Assess2ques3.csproj.AssemblyReference.cache
+C:\infinite\Assess2ques3\Assess2ques3\obj\Debug\Assess2ques3.csproj.CoreCompileInputs.cache
+C:\infinite\Assess2ques3\Assess2ques3\obj\Debug\Assess2ques3.exe
+C:\infinite\Assess2ques3\Assess2ques3\obj\Debug\Assess2ques3.pdb

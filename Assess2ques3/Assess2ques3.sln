@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34931.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assess2ques3", "Assess2ques3\Assess2ques3.csproj", "{60D0ECBA-BC31-491E-8A92-B0F09C1B9AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D0ECBA-BC31-491E-8A92-B0F09C1B9AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D0ECBA-BC31-491E-8A92-B0F09C1B9AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D0ECBA-BC31-491E-8A92-B0F09C1B9AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D0ECBA-BC31-491E-8A92-B0F09C1B9AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11E66A06-FF68-45FD-8B09-982D4AE8FE4C}
+	EndGlobalSection
+EndGlobal
