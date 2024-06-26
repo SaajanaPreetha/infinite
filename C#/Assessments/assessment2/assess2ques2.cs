@@ -1,25 +1,23 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-class Product
+// Define the Product class
+public class Product
 {
     public int ProductId { get; set; }
     public string ProductName { get; set; }
-    public decimal Price { get; set; }
+    public double Price { get; set; }
 
-    public Product(int productId, string productName, decimal price)
+    public Product(int id, string name, double price)
     {
-        ProductId = productId;
-        ProductName = productName;
+        ProductId = id;
+        ProductName = name;
         Price = price;
     }
 
     public override string ToString()
     {
-        return $"Product ID: {ProductId}, Name: {ProductName}, Price: {Price:C}";
+        return $"Product(ID: {ProductId}, Name: {ProductName}, Price: {Price:C})";
     }
 }
 
@@ -27,27 +25,51 @@ class Program
 {
     static void Main()
     {
-        List<Product> products = new List<Product>
+        List<Product> products = GetProducts();
+        SortProducts(products);
+        DisplayProducts(products);
+    }
+
+    // Function to accept products from user input
+    static List<Product> GetProducts()
+    {
+        List<Product> products = new List<Product>();
+        for (int i = 1; i <= 10; i++)  // Accepting 10 products
         {
-            new Product(1, "Apple", 100),
-            new Product(2, "Stickers", 20),
-            new Product(3, "Soap", 462),
-            new Product(4, "Earrings", 115),
-            new Product(5, "Beans", 65),
-            new Product(6, "Pen", 120),
-            new Product(7, "Pencil", 76),
-            new Product(8, "Notebooks", 640),
-            new Product(9, "Sketchbook", 54),
-            new Product(10, "Chocolates", 60)
-        };
+            Console.WriteLine($"Enter details for Product {i}:");
+            Console.Write("Enter Product ID: ");
+            int productId = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Product Name: ");
+            string productName = Console.ReadLine();
+            Console.Write("Enter Product Price: ");
+            double price = Convert.ToDouble(Console.ReadLine());
+            Product product = new Product(productId, productName, price);
+            products.Add(product);
+        }
+        return products;
+    }
 
-        products.Sort((p1, p2) => p1.Price.CompareTo(p2.Price));
+    // Function to sort products based on price
+    static void SortProducts(List<Product> products)
+    {
+        products.Sort(new ProductComparer());
+    }
 
-        Console.WriteLine("Sorted Products:");
-        foreach (var product in products)
+    // ProductComparer class to compare products based on price
+    class ProductComparer : IComparer<Product>
+    {
+        public int Compare(Product x, Product y)
+        {
+            return x.Price.CompareTo(y.Price);
+        }
+    }
+
+    static void DisplayProducts(List<Product> products)
+    {
+        Console.WriteLine("\nSorted Products:");
+        foreach (Product product in products)
         {
             Console.WriteLine(product);
-            Console.ReadLine();
         }
     }
 }
