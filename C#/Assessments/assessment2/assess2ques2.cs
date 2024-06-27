@@ -34,7 +34,7 @@ class Program
     static List<Product> GetProducts()
     {
         List<Product> products = new List<Product>();
-        for (int i = 1; i <= 10; i++)  // Accepting 10 products
+        for (int i = 1; i <= 10; i++)  
         {
             Console.WriteLine($"Enter details for Product {i}:");
             Console.Write("Enter Product ID: ");
