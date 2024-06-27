@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-// Define the Product class
 public class Product
 {
     public int ProductId { get; set; }
@@ -29,8 +31,6 @@ class Program
         SortProducts(products);
         DisplayProducts(products);
     }
-
-    // Function to accept products from user input
     static List<Product> GetProducts()
     {
         List<Product> products = new List<Product>();
@@ -48,14 +48,12 @@ class Program
         }
         return products;
     }
-
-    // Function to sort products based on price
+    
     static void SortProducts(List<Product> products)
     {
         products.Sort(new ProductComparer());
     }
 
-    // ProductComparer class to compare products based on price
     class ProductComparer : IComparer<Product>
     {
         public int Compare(Product x, Product y)
