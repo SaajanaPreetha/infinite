@@ -42,7 +42,7 @@ namespace Assign4ques5
             Console.WriteLine($"Doctor Details:");
             Console.WriteLine($"Registration Number: {RegnNo}");
             Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Fees Charged: {FeesCharged:C}"); // Display as currency
+            Console.WriteLine($"Fees Charged: {FeesCharged:C}"); 
         }
 
         public static void Main(string[] args)
