@@ -1,10 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8c7edff8c3f997c4f1d68c4c38f5d539dfc46266
 public class Product
 {
     public int ProductId { get; set; }
@@ -32,7 +35,10 @@ class Program
         SortProducts(products);
         DisplayProducts(products);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8c7edff8c3f997c4f1d68c4c38f5d539dfc46266
     static List<Product> GetProducts()
     {
         List<Product> products = new List<Product>();
@@ -50,6 +56,7 @@ class Program
         }
         return products;
     }
+<<<<<<< HEAD
 
     static void SortProducts(List<Product> products)
     {
@@ -64,6 +71,22 @@ class Program
         }
     }
 
+=======
+    
+    static void SortProducts(List<Product> products)
+    {
+        products.Sort(new ProductComparer());
+    }
+
+    class ProductComparer : IComparer<Product>
+    {
+        public int Compare(Product x, Product y)
+        {
+            return x.Price.CompareTo(y.Price);
+        }
+    }
+
+>>>>>>> 8c7edff8c3f997c4f1d68c4c38f5d539dfc46266
     static void DisplayProducts(List<Product> products)
     {
         Console.WriteLine("\nSorted Products:");
