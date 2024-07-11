@@ -20,26 +20,21 @@ namespace assign6ques3
         {
             List<Employee> employees = new List<Employee>();
 
-            // Populate sample data (can be replaced with user input or data source)
             PopulateEmployees(employees);
             Console.ReadLine();
 
-            // Display all employees data
             Console.WriteLine("All Employees:");
             DisplayEmployees(employees);
             Console.ReadLine();
 
-            // Display employees whose salary is greater than 45000
             Console.WriteLine("\nEmployees with Salary > 45000:");
             DisplayEmployees(FilterBySalary(employees, 45000));
             Console.ReadLine();
 
-            // Display employees who belong to Bangalore
             Console.WriteLine("\nEmployees in Bangalore:");
             DisplayEmployees(FilterByCity(employees, "Bangalore"));
             Console.ReadLine();
 
-            // Display employees by their names in ascending order (bubble sort)
             Console.WriteLine("\nEmployees by Name (Ascending Order):");
             DisplayEmployees(SortByNameAscending(employees));
             Console.ReadLine();
@@ -47,7 +42,7 @@ namespace assign6ques3
         
         static void PopulateEmployees(List<Employee> employees)
         {
-            // Example: Reading input to populate employees (can be replaced with database access or other input methods)
+
             Console.Write("Enter number of employees: ");
             if (int.TryParse(Console.ReadLine(), out int numberOfEmployees))
             {
