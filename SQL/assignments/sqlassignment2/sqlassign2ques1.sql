@@ -79,9 +79,7 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC)
 VALUES (40, 'OPERATIONS', 'BOSTON');
 
 List all employees whose name begins with 'A'.
-SELECT *
-FROM EMP
-WHERE ENAME LIKE 'A%';
+SELECT * FROM EMP WHERE ENAME LIKE 'A%';
  
  
 Select all those employees who don't have a manager.
