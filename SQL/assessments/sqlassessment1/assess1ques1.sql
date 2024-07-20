@@ -22,8 +22,10 @@ Insert into EMP
 values (8791,'sweta','clerk', 7698, '2001-07-14', 1400, 200, 20),
 (8763, 'sneha','analyst', 7839, '2000-07-12', 1200, 328, 20);
 
-Select * from EMP
-WHERE HIREDATE <= DATEADD(YEAR, -5, DATEADD(MONTH, DATEDIFF(MONTH, 0, GETDATE()), 0)); 
+
+select * from EMP where year(HIREDATE)<=year(Getdate())-5 AND month(HIREDATE)=month(Getdate())
+
+ 
 --4.	Create table Employee with empno, ename, sal, doj columns and perform the following operations in a single transaction
 	--a. First insert 3 rows 
 	--b. Update the second row sal with 15% increment  
