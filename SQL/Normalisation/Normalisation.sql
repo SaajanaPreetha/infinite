@@ -46,4 +46,3 @@ references Owner(OwnerNumber),foreign key(PropertyNumber) references propertydet
 
  select * from property
 
-
