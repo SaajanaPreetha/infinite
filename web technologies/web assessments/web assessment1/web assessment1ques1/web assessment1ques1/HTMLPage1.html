@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Multiplication and division Calculator</title>
+</head>
+<body>
+    <h1>Multiplication and division Calculator</h1>
+    <form id="calculatorForm">
+        <label for="firstnumber">Enter the first number:</label>
+        <input type="text" id="firstnumber" />
+        <br />
+        <label for="secondnumber">Enter the second number:</label>
+        <input type="text" id="secondnumber" />
+        <br />
+        <button type="button" onclick="calculateResults()">Calculate</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        function calculateResults() {
+
+            const input1 = document.getElementById("firstnumber");
+            const input2 = document.getElementById("secondnumber");
+
+            const firstnumber = Number(input1.value);
+            const secondnumber = Number(input2.value);
+
+            const results = document.getElementById("results");
+
+
+            results.innerHTML = "";
+
+            const multiplicationResult = firstnumber * secondnumber;
+            results.innerHTML += "Multiplication  = " + multiplicationResult + "<br/>";
+
+            let divisionResult;
+                divisionResult = firstnumber / secondnumber;
+            results.innerHTML += "Division  = " + divisionResult + "<br/>";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking if the numbers are odd or even</title>
+</head>
+<body>
+    <h1>Checking whether a given number is odd or even</h1>
+    <div id="output"></div>
+
+    <script>
+        function oddevenfunctions() {
+            
+            const output = document.getElementById("output");
+
+            for (let i = 0; i <= 15; i++) {
+
+                let message = i % 2 === 0 ? `${i} is even.` : `${i} is odd.`;
+
+                output.innerHTML += message + "<br/>";
+            }
+        }
+
+        oddevenfunctions();
+    </script>
+</body>
+</html>

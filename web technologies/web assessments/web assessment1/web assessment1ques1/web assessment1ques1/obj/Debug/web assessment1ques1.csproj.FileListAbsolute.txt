@@ -1,0 +1,7 @@
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\bin\Debug\web assessment1ques1.exe.config
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\bin\Debug\web assessment1ques1.exe
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\bin\Debug\web assessment1ques1.pdb
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\obj\Debug\web assessment1ques1.csproj.AssemblyReference.cache
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\obj\Debug\web assessment1ques1.csproj.CoreCompileInputs.cache
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\obj\Debug\web assessment1ques1.exe
+C:\infinite\web technologies\web assessments\web assessment1\web assessment1ques1\web assessment1ques1\obj\Debug\web assessment1ques1.pdb
