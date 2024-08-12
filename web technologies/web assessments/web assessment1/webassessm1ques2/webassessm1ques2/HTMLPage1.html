@@ -7,18 +7,18 @@
 </head>
 <body>
     <h1>Checking whether a given number is odd or even</h1>
-    <div id="output"></div>
+    <div id="result"></div>
 
     <script>
         function oddevenfunctions() {
             
-            const output = document.getElementById("output");
+            const result = document.getElementById("result");
 
             for (let i = 0; i <= 15; i++) {
 
                 let message = i % 2 === 0 ? `${i} is even.` : `${i} is odd.`;
 
-                output.innerHTML += message + "<br/>";
+                result.innerHTML += message + "<br/>";
             }
         }
 
