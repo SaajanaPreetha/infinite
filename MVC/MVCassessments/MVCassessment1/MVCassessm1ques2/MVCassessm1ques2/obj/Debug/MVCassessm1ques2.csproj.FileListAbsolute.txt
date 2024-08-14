@@ -1,0 +1,2 @@
+C:\infinite\MVCassessm1ques2\MVCassessm1ques2\obj\Debug\MVCassessm1ques2.csproj.AssemblyReference.cache
+C:\infinite\MVCassessm1ques2\MVCassessm1ques2\obj\Debug\MVCassessm1ques2.csproj.CoreCompileInputs.cache
