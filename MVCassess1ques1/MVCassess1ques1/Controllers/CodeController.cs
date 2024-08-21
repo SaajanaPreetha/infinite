@@ -3,31 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MVCassess1ques1.Models;
 
-public class CodeController : Controller
+namespace MVCassess1ques1.Models
 {
-    
-    private readonly northwindEntities db = new northwindEntities();
-
- 
-    public ActionResult CustomersInGermany()
+    public class CodeController : Controller
     {
-        List<Customer> customerList = db.Customers
-                                        .Where(c => c.Country == "Germany")
-                                        .ToList();
-        return View(customerList);
-    }
-
-
-    public ActionResult CustomerWithOrder(int orderId)
-    {
-       
-        Customer customer = db.Orders
-                              .Where(o => o.OrderId == orderId)
-                              .Select(o => o.Customer)
-                              .FirstOrDefault();
-
-        return View(customer);
+        northwindEntities nw = new northwindEntities();
+        
+        public ActionResult Index()
+        {
+            return View(nw.Customers.ToList());
+        }
+        public ActionResult In_Germany()
+        {
+            List<string> li = (from g in nw.Customers
+                               where g.Country == "Germany"
+                               select g.CustomerID).ToList();
+            return View(li);
+        }
+        public ActionResult CustomersByOrderId(int orderId = 10248)
+        {
+            var cust = nw.Customers.Where(c => c.Orders.Any(o => o.OrderID == orderId));
+            if (cust == null)
+            {
+                return HttpNotFound();
+            }
+            return View(cust);
+        }
     }
 }
